@@ -1,0 +1,39 @@
+body {
+  font-family: Arial;
+  background-color: #fafafa;
+  margin: 0;
+}
+
+/* 상단 바 */
+.header {
+  background: white;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+}
+
+/* 프로필 */
+.profile {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  background: white;
+  margin-top: 10px;
+}
+
+.profile-img {
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+/* 게시물 카드 */
+.post {
+  background: white;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.post img {
+  width: 100%;
+  border-radius: 5px;
+}

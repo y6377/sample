@@ -59,3 +59,28 @@ button:hover {
   color: white;
   box-shadow: 0 0 15px #8b0000;
 }
+
+/* 카드 정렬 */
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  width: 80%;
+  margin-top: 30px;
+}
+
+/* 카드 */
+.post {
+  padding: 20px;
+  border-radius: 15px;
+  background: rgba(0,0,0,0.5);
+  border: 1px solid #8b0000;
+  box-shadow: 0 0 10px rgba(139,0,0,0.4);
+  transition: 0.3s;
+}
+
+/* 카드 hover */
+.post:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(139,0,0,0.7);
+}

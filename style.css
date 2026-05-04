@@ -3,11 +3,10 @@ body {
   margin: 0;
   height: 100vh;
 
-  background: url("https://images.pexels.com/photos/37110329/pexels-photo-37110329.jpeg?_gl=1*5pbtiw*_ga*NDY2ODY0NDc1LjE3Nzc4ODk3NTg.*_ga_8JE65Q40S6*czE3Nzc4ODk3NTgkbzEkZzEkdDE3Nzc4ODk5NTYkajEkbDAkaDA.") no-repeat center;
-  background-size: cover;
+  background: radial-gradient(circle, #1a0f14, #0b0709);
+  color: #c9a3a3; /* 연한 버건디 텍스트 */
 
   font-family: 'Cinzel', serif;
-  color: gold;
 }
 
 /* 어둡게 덮는 레이어 */
@@ -26,7 +25,8 @@ body {
 h1 {
   font-size: 60px;
   margin: 0;
-  text-shadow: 0 0 20px rgba(255, 215, 0, 0.8);
+  color: #8b0000; /* 버건디 */
+  text-shadow: 0 0 15px rgba(139, 0, 0, 0.8);
 }
 
 /* 설명 */
@@ -40,16 +40,17 @@ p {
 button {
   padding: 12px 25px;
   font-size: 16px;
+
   background: transparent;
-  color: gold;
-  border: 1px solid gold;
+  color: #8b0000;
+  border: 1px solid #8b0000;
+
   cursor: pointer;
   transition: 0.3s;
 }
 
-/* 버튼 호버 효과 */
 button:hover {
-  background: gold;
-  color: black;
-  box-shadow: 0 0 15px gold;
+  background: #8b0000;
+  color: white;
+  box-shadow: 0 0 15px #8b0000;
 }

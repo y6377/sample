@@ -1,0 +1,17 @@
+body {
+  background-color: black;
+  color: lime;
+  font-family: monospace;
+}
+a {
+  color: lime;
+  text-decoration: none;
+}
+
+@keyframes blink {
+  50% { opacity: 0; }
+}
+
+h2 {
+  animation: blink 1s infinite;
+}

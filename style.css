@@ -84,3 +84,27 @@ button:hover {
   transform: scale(1.05);
   box-shadow: 0 0 20px rgba(139,0,0,0.7);
 }
+
+/* 상단 메뉴 바 */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 15px 30px;
+  background: rgba(0,0,0,0.7);
+  border-bottom: 1px solid #8b0000;
+}
+
+/* 메뉴 묶음 */
+.menu a {
+  margin-left: 20px;
+  color: #c9a3a3;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+/* 마우스 올리면 */
+.menu a:hover {
+  color: #8b0000;
+}

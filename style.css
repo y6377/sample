@@ -3,9 +3,14 @@ body {
   margin: 0;
   height: 100vh;
 
-  background: radial-gradient(circle, #1a0f14, #0b0709);
-  color: #c9a3a3; /* 연한 버건디 텍스트 */
+  background:
+    linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.8)),
+    url("https://buly.kr/FWV0AUT");
 
+  background-size: cover;
+  background-position: center;
+
+  color: #c9a3a3;
   font-family: 'Cinzel', serif;
 }
 
